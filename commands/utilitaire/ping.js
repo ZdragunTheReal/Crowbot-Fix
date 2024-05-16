@@ -39,7 +39,7 @@ module.exports = {
 
 			let msg = await message.channel.send(embeed)
 			let embed = new Discord.MessageEmbed()
-			embed.setTitle("Voici La Latence Du Bot Et De L'API De Discord")
+			embed.setTitle("Latence de Discord")
 			embed.addField("Ping", `${msg.createdAt - message.createdAt + "ms"}`, true)
 			embed.addField("Latence", `${client.ws.ping}ms`, true)
 			embed.setColor(color)
