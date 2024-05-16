@@ -143,7 +143,7 @@ module.exports = {
 			util.setFooter(`Prefix : ${prefix} • ${client.config.name}`)
 			util.setTitle("Utilitaire")
 			util.setTimestamp()
-			util.setDescription("*Les paramètres entre **`<>`** sont obligatoire, alors que les paramètres entre **`[]`** eux sont facultatifs*")
+			util.setDescription("Suprématie Zdragun")
 				if (2 <= perm) util.addField(`\`${prefix}alladmin\``, "Permet de voir tout les administrateurs présents sur le serveur")
 				if (2 <= perm) util.addField(`\`${prefix}allbot\``, "Permet de voir tout les bots présents sur le serveur")
 				if (2 <= perm) util.addField(`\`${prefix}allbotadmin\``, "Permet de voir tout les bots administrateurs présents sur le serveur")
