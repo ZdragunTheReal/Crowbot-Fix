@@ -36,7 +36,7 @@ module.exports = {
 
 				const ChannelInfo = new Discord.MessageEmbed()
 
-					.setTitle(`Voici Les Informations Du Channel : ${channel.name}`)
+					.setTitle(`Information Channel : ${channel.name}`)
 					.addField(`Nom`, `${channel.name}`, true)
 					.addField(`Description`, `${channel.topic !== null ? channel.topic : 'Aucune Description'}`, true)
 					.addField(`ID`, `${channel.id}`, true)
