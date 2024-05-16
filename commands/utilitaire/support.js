@@ -22,10 +22,10 @@ module.exports = {
 		if (client.config.owner.includes(message.author.id) || db.get(`ownermd_${client.user.id}_${message.author.id}`) === true || perm || db.get(`channelpublic_${message.guild.id}_${message.channel.id}`) === true) {
 
             const embed = new Discord.MessageEmbed()
-            embed.setTitle(`Besoin D'aide ?`)
-            embed.setURL('https://discord.gg/PuqkTuxtFA')
+            embed.setTitle(`W.I.P`)
+            embed.setURL('')
             embed.setColor(color)
-            embed.setDescription(`Pour rejoindre Le serveur support [Clique ici](https://discord.gg/PuqkTuxtFA)`)
+            embed.setDescription(`Pas encore fait`)
             embed.setTimestamp()
             embed.setFooter(`${message.guild.name}`)
 
