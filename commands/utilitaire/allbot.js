@@ -37,7 +37,7 @@ module.exports = {
 			let page = 1;
 
 			const embed = new Discord.MessageEmbed()
-				.setTitle('Liste des bot présents')
+				.setTitle('Liste des bot')
 				.setDescription(str_filtrer
 					.map(r => r)
 					.filter(x => message.guild.members.cache.get(x.user.id))
